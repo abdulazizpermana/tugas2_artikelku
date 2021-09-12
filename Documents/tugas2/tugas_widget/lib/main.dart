@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas_widget/tugas4.dart';
 
 void main() => runApp(MyApp());
 
@@ -7,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: MyHomePage(),
+      home: HalamanSatu(),
     );
   }
 }
@@ -47,7 +48,7 @@ class MyHomePage extends StatelessWidget {
                 fontSize: 12,
               ),
             ),
-          )
+          ),
         ]),
         Container(
           alignment: Alignment.center,
